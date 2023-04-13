@@ -1,0 +1,62 @@
+body {
+    background-color: #F9E6D8;
+    color:#372C2E;
+    accent-color: #F7CAC9;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Set the font family, font size, and text alignment for the h1 element */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px; /* Add some space between the top of the element and the content above it */
+    margin-bottom: 20px; /* Add some space between the bottom of the element and the content below it */
+  }
+
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;    
+    line-height: 1.5;
+    text-align: justify; /* Justify the text for a cleaner look */
+    margin-bottom: 20px; /* Add some space between the bottom of the element and the content below it */
+  }
+
+.box {
+    background-color: rgb(110, 130, 219);
+    
+    padding: 100px;
+    margin: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* This css is for RETURN TO MAIN PAGE */
+  .button {
+    display: block;
+    background-color: #4CAF50; /* Change color as needed */
+    margin: 89px auto 0;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button:hover {
+    background-color: #3e8e41; /* Change color as needed */
+  }
