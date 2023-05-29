@@ -12,4 +12,4 @@ Added in cooking notes by emphasizing them at bottom of the page
 Added a Home/main page button on recipes sites to go back to starting page
 used body and paragraph elements to describe what the recipe is all about
 Linked a CSS stylesheet to the HTML files
-Properly implemented various types of CSS selectors and inheritance, keeping in mind of specificity rules.
+Properly implemented various types of CSS selectors and inheritance, keeping in mind of specificity rules.  

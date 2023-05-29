@@ -1,21 +1,86 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    background-color: #F9E6D8;
+    background-color: #F7CAC9;
     color:#372C2E;
-    accent-color: #F7CAC9;
+    accent-color: #f7cac9e9;
     font-size: 21px;
-    font-family: Arial, sans-serif;
+}
+ /* Section */
+section {
+  width:100%;
+  height:100vh;
+}
+
+section nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position:fixed;
+  right:0;
+  left:0;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+section nav .logo img {
+  width:300px;
+  cursor: pointer;
+  margin: 7px 0;
+
+}
+
+section nav ul {
+  list-style: none;
+}
+
+section nav ul li  {
+  display: inline-block;
+  margin:0 15px;
+}
+
+section nav ul li a {
+  text-decoration: none;
+  color:#830f0ff7;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+section nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background:rgb(110, 130, 219);
+  display: block;
+  transition: 0.2s linear; /*transition when hovering*/
+}
+
+section nav ul li a:hover::after{
+  width:100%;
+
 }
 
 
 /* Set the font family, font size, and text alignment for the h1 element */
-h1 {
+/*h1 {
     font-family: Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px; /* Add some space between the top of the element and the content above it */
-    margin-bottom: 20px; /* Add some space between the bottom of the element and the content below it */
-  }
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+  } */
 
   p {
     font-family: Arial, sans-serif;
@@ -24,20 +89,12 @@ h1 {
     text-align: justify; /* Justify the text for a cleaner look */
     margin-bottom: 20px; /* Add some space between the bottom of the element and the content below it */
   }
-
+   
 .box {
     background-color: rgb(110, 130, 219);
-    
     padding: 100px;
     margin: 100px;
 }
-
-
-
-
-
-
-
 
 
 
